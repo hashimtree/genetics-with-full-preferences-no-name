@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ty"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result For Genetics M2G"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3/5"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Score:333"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:textSize="18sp"
+        android:layout_marginTop="60dp"
+        android:onClick="returnTop"
+        />
+ <TextClock
+android:id="@+id/textClock"          android:layout_width="fill_parent"           android:layout_height="wrap_content"           android:layout_marginTop="6dp"
+android:format12Hour="yyyy MM-dd-hh:mm:ss: a"          android:gravity="center_horizontal"
+android:textSize="6sp"
+android:textStyle="bold"/>	       
+        
+
+</LinearLayout>
